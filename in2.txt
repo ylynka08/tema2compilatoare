@@ -1,0 +1,10 @@
+PROGRAM prog1
+VAR
+a1,a2,a3:INTEGER;
+b1,b2,b3:INTEGER
+BEGIN
+READ(a1);
+READ(a2);
+a2:=a1;
+WRITE(a2)
+END
